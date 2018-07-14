@@ -1,0 +1,95 @@
+/*------------------ STANDARD STYLING -------------------*/
+header{
+ height: 110px;
+}
+#mainNav{
+ position:absolute;
+ top: 110px;
+ width: 100%;
+}
+#mainNav li a{
+ display: block;
+ padding: 10px 15px 13px 15px;
+ line-height: 100%;
+ -size: 120%;
+ border: none;
+ color: #036;
+}
+#across{
+ margin: 0;
+ width:100%;
+}
+/*for a stretched bottom only*/
+
+h2.thisMonth{
+ font-size: 260%;
+}
+.content{
+ margin-top: 250px;
+}
+.sidebar{
+ margin-top: 150px;
+}
+.sidebar div{
+ margin-top: 30px;
+ padding-bottom: 10px;
+}
+.sidebar h2{
+ margin-left:20px;
+}
+
+header{
+	background: url(images/bg-wallpaper.jpg) no-repeat 0 0;
+}
+#mainNav li a:hover{
+ color:#088fff;}
+#across{
+ border-top: 2px solid #444;
+ background: #000
+}
+#container{
+background: url(images/osmag-container-bg.jpeg) no-repeat 50%
+-30px;
+}
+#container2{
+ background: url(images/osmag-earth.jpg) no-repeat 50% 0;
+}
+h2.thisMonth{
+ color: #fff;
+}
+h2.pastIssues{
+ color:#222;
+}
+article h2{
+ background: url(images/pngs/highlight-border.png) repeat-x 0
+bottom;
+}
+.comments{
+ background: url(images/pngs/comments-icon.png) no-repeat 0 0;
+}
+
+/*------------------REUSABLE GRAPHIC TREATMENTS ------------------
+-*/
+/*reusable image backgrounds*/
+.img-quote-light{
+ background: url(images/pngs/r-quotes-light.png) no-repeat -10px
+-7px;
+ text-indent: 55px;
+}
+.img-quote-dark{
+ background-image: url(images/pngs/r-quotes-dark.png);
+ background-repeat: no-repeat;
+ background-position: -10px -7px;
+ text-indent: 55px;
+}
+.img-bottom-shadow{
+ background: url(images/pngs/bot-r-shadow.png) no-repeat 50%
+bottom;
+}
+.img-top-shadow{
+ background: url(images/pngs/top-r-shadow.png) no-repeat 50% 0;
+}
+.img-line-hz{
+ background: url(images/pngs/highlight-border.png) repeat-x left
+bottom;
+}
